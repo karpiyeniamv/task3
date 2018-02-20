@@ -1,0 +1,147 @@
+#blink2 {
+    -webkit-animation: blink2 1s linear infinite;
+    animation: blink2 1s linear infinite;
+}
+@-webkit-keyframes blink2 {
+    100% { color: rgba(34, 34, 34, 0); }
+}
+@keyframes blink2 {
+    100% { color: rgba(34, 34, 34, 0); }
+}
+
+a {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+input {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.myBtn {
+    border-radius: 8px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 5px;
+    cursor: pointer;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    Outline: none;
+}
+
+.resRow {
+    text-align: center;
+    font-size: 36px;
+}
+
+.muInput {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 5px 5px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+th {
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px 5px;
+    padding: 15px 32px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.overlay {
+    background: #000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    opacity: .5;
+}
+.visible {
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    overflow: hidden;
+    z-index: 2000;
+    width: 500px;
+    padding: 0px;
+    margin-left: -250px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+}
+
+.thWin {
+    background-color: #85144b;
+    color: white;
+}
+
+.w {
+    height: 60%;
+}
+.myModal button {
+    float: right;
+    margin: 5px;
+    border: none;
+    font-family: Verdana ;
+    background-color: white;
+}
+.myModal  button[type="button"]:hover {
+    cursor: pointer;
+}
+
+.myModal  h2 {
+    text-align: center;
+    color: #008CBA;
+    background-color: white;
+}
+.contentErr {
+    text-align: center;
+    color: #008CBA;
+    background-color: white;
+}
+
+.contentWin {
+    text-align: center;
+    color: #85144b;;
+    background-color: white;
+    overflow-y: scroll;
+    height: 80%;
+}
+
+.myModalWin h2 {
+    text-align: center;
+    color: #85144b;;
+    background-color: white;
+}
+
+.myModalWin button {
+    float: right;
+    margin: 5px;
+    border: none;
+    font-family: Verdana ;
+    background-color: white;
+}
+.myModalWin  button[type="button"]:hover {
+    cursor: pointer;
+}
